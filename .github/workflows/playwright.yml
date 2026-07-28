@@ -5,6 +5,38 @@ on:
       '**'
   pull_request:
     branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      test-to-run:
+        description: 'Add your npx code here'
+        required: false
+        default: 'npm run script:to:run'
+        type: string
+
+      workers:
+        description: 'Number of workers to use'
+        required: false
+        default: '1'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+      browser:
+        description: "Browser to run tests on"
+        required: false
+        default: chromium
+        type: choice
+        options:
+          - chromium
+          - firefox
+          - webkit
+          - all
+
+
+
+
 jobs:
   Playwright-tests:
     timeout-minutes: 60
