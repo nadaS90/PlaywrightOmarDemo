@@ -42,9 +42,7 @@ test("check box ", async ({ page }) => {
 test("dropdown", async ({ page }) => {
   await page.goto("https://the-internet.herokuapp.com/dropdown");
   await page.selectOption("#dropdown", { value: "1" });
-  await page.pause();
   await page.selectOption("#dropdown", { value: "2" });
-  await page.pause();
   await page.selectOption("#dropdown", { label: "Option 1" });
   console.log(await page.locator("option[selected='selected']").textContent());
 
@@ -138,7 +136,6 @@ test("Open new window", async ({ page }) => {
    const newPagePromise = page.context().waitForEvent("page");
 
   await page.getByRole("link", { name: "Open New Seperate Windows" }).click();
-  await page.pause();
   await expect(page.getByRole("paragraph")).toContainText("click the button to open a new window with some specifications");
   await page.getByRole("button", { name: "click" }).click();
   const newPage = await newPagePromise;

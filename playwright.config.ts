@@ -1,4 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
+import path from "node:path";
+
+const projectRoot = __dirname;
 
 /**
  * Read environment variables from file.
@@ -12,17 +15,22 @@ import { defineConfig, devices } from "@playwright/test";
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: "./tests",
-
-  globalTeardown: "./global-teardown",
+  testDir: path.resolve(projectRoot, "tests"),
+  globalTeardown: path.resolve(projectRoot, "globalTeardown.ts"),
 
   /* Keep the Playwright HTML report and also generate Allure result files. */
   reporter: [
-    ["html", { outputFolder: "playwright-report", open: "never" }],
+    [
+      "html",
+      {
+        outputFolder: path.resolve(projectRoot, "playwright-report"),
+        open: "never",
+      },
+    ],
     [
       "allure-playwright",
       {
-        outputFolder: "allure-results",
+        resultsDir: path.resolve(projectRoot, "allure-results"),
         detail: true,
         suiteTitle: false,
       },
