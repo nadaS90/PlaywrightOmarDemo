@@ -5,5 +5,7 @@ test("to be hidden", async ({ page }) => {
   await expect(page.locator("#finish")).toBeHidden();
 
   await page.locator("#start button").click();
-  await expect(page.locator("#finish")).toBeVisible();
+  await expect(page.locator("#finish")).toHaveText("Hello World!", {
+    timeout: 10_000,
+  });
 });

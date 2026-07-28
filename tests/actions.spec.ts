@@ -94,10 +94,13 @@ test("prompt", async ({ page }) => {
 test("iframe", async ({ page }) => {
   await page.goto("https://the-internet.herokuapp.com/iframe");
 
-const frame = page.frameLocator("#mce_0_ifr");
+  const frame = page.frameLocator("#mce_0_ifr");
+  const editor = frame.locator("#tinymce");
 
-  await frame.locator("#tinymce").fill("Nada");
-  await expect(page.locator("#tinymce")).toHaveText("Nada");
+  // The demo currently exposes TinyMCE in read-only mode, so verify its
+  // contents through the iframe instead of attempting to edit it.
+  await expect(editor).toBeVisible();
+  await expect(editor).toContainText("Your content goes here.");
 });
 
 
