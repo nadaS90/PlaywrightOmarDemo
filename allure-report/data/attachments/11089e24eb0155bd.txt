@@ -1,0 +1,5 @@
+Running before all tests
+Running before each tests
+Running sauce lab tests
+Running after each tests
+Running after all tests
