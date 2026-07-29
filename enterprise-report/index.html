@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Enterprise Playwright test execution report">
+  <title>Playwright Enterprise Report</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/report.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="PulseQA report home">
+      <span class="brand-mark"><i class="fa-solid fa-bolt"></i></span>
+      <span><strong>PulseQA</strong><small>Playwright Intelligence</small></span>
+    </a>
+    <nav class="top-actions" aria-label="Report actions">
+      <span class="build-chip"><i class="fa-solid fa-code-branch"></i><span id="buildLabel">Build</span></span>
+      <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle color theme" title="Toggle theme">
+        <i class="fa-solid fa-sun"></i>
+      </button>
+      <button class="button button-secondary" id="downloadJson" type="button"><i class="fa-solid fa-code"></i>JSON</button>
+      <button class="button button-secondary" id="downloadCsv" type="button"><i class="fa-solid fa-table"></i>CSV</button>
+      <button class="button button-primary" id="printReport" type="button"><i class="fa-solid fa-file-pdf"></i>Print PDF</button>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="hero" id="overview">
+      <div>
+        <p class="eyebrow"><span class="live-dot"></span> Execution complete</p>
+        <h1>Quality, at a glance.</h1>
+        <p class="hero-copy">A complete view of automation health, coverage, stability, and execution performance.</p>
+      </div>
+      <div class="run-meta">
+        <div><span>Run ID</span><strong id="runId">—</strong></div>
+        <div><span>Completed</span><strong id="completedAt">—</strong></div>
+      </div>
+    </section>
+
+    <section class="metrics-grid" id="metrics" aria-label="Execution summary"></section>
+
+    <section class="section-block" aria-labelledby="analyticsTitle">
+      <div class="section-heading">
+        <div><span class="section-kicker">Analytics</span><h2 id="analyticsTitle">Execution intelligence</h2></div>
+        <p>Live signals from the current test run</p>
+      </div>
+      <div class="charts-grid">
+        <article class="card chart-card chart-featured"><div class="card-heading"><div><span>Status</span><h3>Test outcomes</h3></div><i class="fa-solid fa-chart-pie"></i></div><div class="chart-wrap"><canvas id="statusChart"></canvas></div></article>
+        <article class="card chart-card chart-wide"><div class="card-heading"><div><span>Performance</span><h3>Execution time per test</h3></div><i class="fa-solid fa-stopwatch"></i></div><div class="chart-wrap"><canvas id="durationChart"></canvas></div></article>
+        <article class="card chart-card"><div class="card-heading"><div><span>Coverage</span><h3>Category confidence</h3></div><i class="fa-solid fa-bullseye"></i></div><div class="chart-wrap"><canvas id="coverageChart"></canvas></div></article>
+        <article class="card chart-card"><div class="card-heading"><div><span>Throughput</span><h3>Execution timeline</h3></div><i class="fa-solid fa-arrow-trend-up"></i></div><div class="chart-wrap"><canvas id="timelineChart"></canvas></div></article>
+        <article class="card chart-card"><div class="card-heading"><div><span>Platforms</span><h3>Browser distribution</h3></div><i class="fa-solid fa-globe"></i></div><div class="chart-wrap"><canvas id="browserChart"></canvas></div></article>
+      </div>
+    </section>
+
+    <section class="section-block" aria-labelledby="testsTitle">
+      <div class="section-heading"><div><span class="section-kicker">Test explorer</span><h2 id="testsTitle">Execution details</h2></div><p id="resultCount" aria-live="polite"></p></div>
+      <article class="card table-card">
+        <div class="table-tools">
+          <label class="search-field"><i class="fa-solid fa-magnifying-glass"></i><span class="sr-only">Search tests</span><input id="searchInput" type="search" placeholder="Search tests, suites, errors…"></label>
+          <div class="filter-group" id="statusFilters" aria-label="Filter by status"></div>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr>
+              <th data-sort="name">Test name <i class="fa-solid fa-sort"></i></th><th data-sort="suite">Suite <i class="fa-solid fa-sort"></i></th><th data-sort="browser">Browser <i class="fa-solid fa-sort"></i></th><th data-sort="status">Status <i class="fa-solid fa-sort"></i></th><th data-sort="duration">Duration <i class="fa-solid fa-sort"></i></th><th>Error message</th><th data-sort="retries">Retries <i class="fa-solid fa-sort"></i></th><th data-sort="startTime">Start time <i class="fa-solid fa-sort"></i></th><th data-sort="endTime">End time <i class="fa-solid fa-sort"></i></th>
+            </tr></thead>
+            <tbody id="testTableBody"></tbody>
+          </table>
+        </div>
+        <div class="pagination"><p id="pageSummary"></p><div><button class="icon-button" id="previousPage" type="button" aria-label="Previous page"><i class="fa-solid fa-chevron-left"></i></button><span id="pageButtons"></span><button class="icon-button" id="nextPage" type="button" aria-label="Next page"><i class="fa-solid fa-chevron-right"></i></button></div></div>
+      </article>
+    </section>
+
+    <section class="two-column section-block">
+      <div>
+        <div class="section-heading compact"><div><span class="section-kicker">Artifacts</span><h2>Failure evidence</h2></div></div>
+        <div class="gallery" id="screenshotGallery"></div>
+      </div>
+      <div>
+        <div class="section-heading compact"><div><span class="section-kicker">Playback</span><h2>Video &amp; traces</h2></div></div>
+        <div class="artifact-list" id="artifactList"></div>
+      </div>
+    </section>
+
+    <section class="section-block" aria-labelledby="errorsTitle">
+      <div class="section-heading"><div><span class="section-kicker">Diagnostics</span><h2 id="errorsTitle">Error details</h2></div><p>Expandable stack traces with one-click copy</p></div>
+      <div class="error-list" id="errorList"></div>
+    </section>
+
+    <section class="two-column section-block">
+      <article class="card environment-card"><div class="section-heading compact"><div><span class="section-kicker">Runtime</span><h2>Environment</h2></div></div><dl id="environmentGrid"></dl></article>
+      <article class="card summary-card"><div class="section-heading compact"><div><span class="section-kicker">Insights</span><h2>Run summary</h2></div></div><div class="summary-tabs" id="summaryTabs"></div><div id="summaryContent"></div></article>
+    </section>
+  </main>
+
+  <footer><span><i class="fa-solid fa-bolt"></i> PulseQA Enterprise Report</span><span>Generated from Playwright execution data</span></footer>
+
+  <dialog class="lightbox" id="lightbox"><button class="lightbox-close" id="closeLightbox" type="button" aria-label="Close preview"><i class="fa-solid fa-xmark"></i></button><img id="lightboxImage" alt="Expanded failure screenshot"><div><h3 id="lightboxTitle"></h3><p id="lightboxCaption"></p></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

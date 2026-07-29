@@ -1,0 +1,17 @@
+const colors = { green: "#35d399", red: "#ff6384", yellow: "#f8c44f", violet: "#7c5cff", cyan: "#27d7d0", blue: "#4ea1ff" };
+const textColor = () => getComputedStyle(document.documentElement).getPropertyValue("--muted").trim();
+let chartInstances = [];
+const baseOptions = () => ({ responsive: true, maintainAspectRatio: false, animation: { duration: 850, easing: "easeOutQuart" }, plugins: { legend: { labels: { color: textColor(), usePointStyle: true, pointStyle: "circle", padding: 18, font: { size: 11 } } } } });
+const axes = () => ({ x: { grid: { display: false }, ticks: { color: textColor(), maxRotation: 0, autoSkip: true, maxTicksLimit: 7 } }, y: { beginAtZero: true, grid: { color: "rgba(148,163,184,.09)" }, ticks: { color: textColor() } } });
+export function renderCharts(data) {
+  chartInstances.forEach(chart => chart.destroy()); chartInstances = [];
+  const statusCounts = ["passed", "failed", "skipped"].map(status => data.tests.filter(test => test.status === status).length);
+  const browserCounts = Object.entries(data.tests.reduce((map, test) => ({ ...map, [test.browser]: (map[test.browser] || 0) + 1 }), {}));
+  const add = (id, config) => chartInstances.push(new Chart(document.getElementById(id), config));
+  add("statusChart", { type: "doughnut", data: { labels: ["Passed", "Failed", "Skipped"], datasets: [{ data: statusCounts, backgroundColor: [colors.green, colors.red, colors.yellow], borderWidth: 0, hoverOffset: 7 }] }, options: { ...baseOptions(), cutout: "72%", plugins: { ...baseOptions().plugins, tooltip: { callbacks: { label: context => ` ${context.label}: ${context.raw} tests` } } } } });
+  add("durationChart", { type: "bar", data: { labels: data.tests.map(test => test.name), datasets: [{ label: "Seconds", data: data.tests.map(test => test.duration), backgroundColor: data.tests.map(test => test.status === "failed" ? colors.red : colors.violet), borderRadius: 6, maxBarThickness: 22 }] }, options: { ...baseOptions(), scales: axes(), plugins: { ...baseOptions().plugins, legend: { display: false } } } });
+  add("coverageChart", { type: "radar", data: { labels: Object.keys(data.coverage), datasets: [{ label: "Coverage %", data: Object.values(data.coverage), borderColor: colors.cyan, backgroundColor: "rgba(39,215,208,.16)", pointBackgroundColor: colors.cyan, borderWidth: 2 }] }, options: { ...baseOptions(), scales: { r: { min: 0, max: 100, angleLines: { color: "rgba(148,163,184,.13)" }, grid: { color: "rgba(148,163,184,.13)" }, pointLabels: { color: textColor(), font: { size: 10 } }, ticks: { display: false } } }, plugins: { ...baseOptions().plugins, legend: { display: false } } } });
+  let elapsed = 0; const timeline = data.tests.map(test => Number((elapsed += test.duration).toFixed(2)));
+  add("timelineChart", { type: "line", data: { labels: data.tests.map((_, i) => `T${i + 1}`), datasets: [{ label: "Elapsed seconds", data: timeline, borderColor: colors.violet, backgroundColor: "rgba(124,92,255,.15)", fill: true, tension: .38, pointRadius: 2, pointHoverRadius: 5 }] }, options: { ...baseOptions(), scales: axes(), plugins: { ...baseOptions().plugins, legend: { display: false } } } });
+  add("browserChart", { type: "pie", data: { labels: browserCounts.map(([name]) => name), datasets: [{ data: browserCounts.map(([, count]) => count), backgroundColor: [colors.violet, colors.blue, colors.cyan, colors.yellow, colors.red], borderWidth: 0, hoverOffset: 7 }] }, options: baseOptions() });
+}

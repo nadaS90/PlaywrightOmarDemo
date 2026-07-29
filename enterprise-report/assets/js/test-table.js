@@ -1,0 +1,19 @@
+import { escapeHtml, formatDuration, titleCase } from "./utils.js";
+export class TestTable {
+  constructor(tests, pageSize = 8) { this.tests = tests; this.pageSize = pageSize; this.query = ""; this.status = "all"; this.sortKey = "startTime"; this.direction = 1; this.page = 1; this.body = document.querySelector("#testTableBody"); this.bind(); this.renderFilters(); this.render(); }
+  bind() {
+    document.querySelector("#searchInput").addEventListener("input", event => { this.query = event.target.value.toLowerCase(); this.page = 1; this.render(); });
+    document.querySelectorAll("th[data-sort]").forEach(th => th.addEventListener("click", () => { const key = th.dataset.sort; this.direction = this.sortKey === key ? -this.direction : 1; this.sortKey = key; this.render(); }));
+    document.querySelector("#previousPage").addEventListener("click", () => { if (this.page > 1) { this.page--; this.render(); } });
+    document.querySelector("#nextPage").addEventListener("click", () => { if (this.page < this.totalPages) { this.page++; this.render(); } });
+  }
+  renderFilters() { document.querySelector("#statusFilters").innerHTML = ["all", "passed", "failed", "skipped"].map(status => `<button class="filter-button ${status === this.status ? "active" : ""}" type="button" data-status="${status}">${titleCase(status)}</button>`).join(""); document.querySelectorAll("[data-status]").forEach(button => button.addEventListener("click", () => { this.status = button.dataset.status; this.page = 1; this.renderFilters(); this.render(); })); }
+  get filtered() { const matching = this.tests.filter(test => (this.status === "all" || test.status === this.status) && [test.name, test.suite, test.browser, test.error].some(value => value.toLowerCase().includes(this.query))); return matching.sort((a, b) => { const av = a[this.sortKey], bv = b[this.sortKey]; return (typeof av === "number" ? av - bv : String(av).localeCompare(String(bv))) * this.direction; }); }
+  render() {
+    const rows = this.filtered; this.totalPages = Math.max(1, Math.ceil(rows.length / this.pageSize)); this.page = Math.min(this.page, this.totalPages); const start = (this.page - 1) * this.pageSize; const visible = rows.slice(start, start + this.pageSize);
+    this.body.innerHTML = visible.length ? visible.map(test => `<tr><td class="test-name">${escapeHtml(test.name)}</td><td class="cell-muted">${escapeHtml(test.suite)}</td><td class="cell-muted"><i class="fa-brands fa-${test.browser.toLowerCase().includes("firefox") ? "firefox-browser" : test.browser.toLowerCase().includes("webkit") ? "safari" : "chrome"}"></i> ${escapeHtml(test.browser)}</td><td><span class="status status-${test.status}">${titleCase(test.status)}</span></td><td>${formatDuration(test.duration)}</td><td><div class="error-preview" title="${escapeHtml(test.error)}">${escapeHtml(test.error || "—")}</div></td><td>${test.retries}</td><td class="cell-muted">${test.startTime}</td><td class="cell-muted">${test.endTime}</td></tr>`).join("") : `<tr><td colspan="9" class="artifact-empty">No tests match the current filters.</td></tr>`;
+    document.querySelector("#resultCount").textContent = `${rows.length} result${rows.length === 1 ? "" : "s"}`; document.querySelector("#pageSummary").textContent = rows.length ? `Showing ${start + 1}–${Math.min(start + this.pageSize, rows.length)} of ${rows.length}` : "Showing 0 results";
+    document.querySelector("#pageButtons").innerHTML = Array.from({ length: this.totalPages }, (_, index) => `<button class="page-button ${index + 1 === this.page ? "active" : ""}" data-page="${index + 1}" type="button">${index + 1}</button>`).join(""); document.querySelectorAll("[data-page]").forEach(button => button.addEventListener("click", () => { this.page = Number(button.dataset.page); this.render(); }));
+    document.querySelector("#previousPage").disabled = this.page === 1; document.querySelector("#nextPage").disabled = this.page === this.totalPages;
+  }
+}

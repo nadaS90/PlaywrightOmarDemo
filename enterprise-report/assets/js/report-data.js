@@ -1,0 +1,28 @@
+export const reportData = {
+  meta: { runId: "PW-2026-0729-1842", completedAt: "2026-07-29T09:42:31Z", totalDuration: 184.7 },
+  environment: {
+    browser: "Chromium 138.0", os: "Windows 11", nodeVersion: "v22.17.0",
+    playwrightVersion: "1.62.0", commitSha: "8f4a1c2", branch: "main", buildNumber: "1842",
+  },
+  coverage: { Authentication: 94, Checkout: 87, Navigation: 91, Accessibility: 78, API: 84, Visual: 72 },
+  tests: [
+    { id: 1, name: "User can log in with valid credentials", suite: "Authentication", browser: "Chromium", status: "passed", duration: 3.42, error: "", retries: 0, startTime: "09:39:26", endTime: "09:39:29" },
+    { id: 2, name: "Invalid password displays validation", suite: "Authentication", browser: "Firefox", status: "passed", duration: 2.18, error: "", retries: 0, startTime: "09:39:29", endTime: "09:39:31" },
+    { id: 3, name: "Cart preserves selected products", suite: "Checkout", browser: "Chromium", status: "failed", duration: 18.64, error: "Expected cart badge to contain ‘2’, received ‘1’", retries: 1, startTime: "09:39:31", endTime: "09:39:50", stack: "Error: expect(locator).toHaveText(expected)\nLocator: getByTestId('cart-badge')\nExpected: \"2\"\nReceived: \"1\"\n    at CartPage.verifyItemCount (pages/cartPage.ts:84:31)\n    at checkout.spec.ts:47:20", screenshot: "assets/img/cart-failure.svg", video: "../test-results/cart-preserves-selected-products/video.webm", trace: "../test-results/cart-preserves-selected-products/trace.zip" },
+    { id: 4, name: "Guest can complete checkout", suite: "Checkout", browser: "WebKit", status: "passed", duration: 12.71, error: "", retries: 0, startTime: "09:39:50", endTime: "09:40:03" },
+    { id: 5, name: "Primary navigation is keyboard accessible", suite: "Accessibility", browser: "Chromium", status: "passed", duration: 7.36, error: "", retries: 0, startTime: "09:40:03", endTime: "09:40:10" },
+    { id: 6, name: "Product grid matches baseline", suite: "Visual", browser: "Chromium", status: "failed", duration: 15.22, error: "Screenshot comparison failed: 384 pixels differ", retries: 2, startTime: "09:40:10", endTime: "09:40:25", stack: "Error: Screenshot comparison failed\nExpected an image 1280px by 720px\n384 pixels (ratio 0.0004) are different\n    at ProductPage.compareGrid (pages/productPage.ts:62:24)\n    at visual.spec.ts:28:17", screenshot: "assets/img/visual-failure.svg", video: "../test-results/product-grid-baseline/video.webm", trace: "../test-results/product-grid-baseline/trace.zip" },
+    { id: 7, name: "API returns paginated inventory", suite: "API", browser: "API", status: "passed", duration: 0.84, error: "", retries: 0, startTime: "09:40:25", endTime: "09:40:26" },
+    { id: 8, name: "Session expires after inactivity", suite: "Authentication", browser: "Firefox", status: "skipped", duration: 0, error: "Blocked by AUTH-291", retries: 0, startTime: "09:40:26", endTime: "09:40:26" },
+    { id: 9, name: "Order confirmation email is queued", suite: "Checkout", browser: "Chromium", status: "passed", duration: 5.19, error: "", retries: 1, startTime: "09:40:26", endTime: "09:40:31" },
+    { id: 10, name: "Deep link restores application state", suite: "Navigation", browser: "WebKit", status: "passed", duration: 4.66, error: "", retries: 0, startTime: "09:40:31", endTime: "09:40:36" },
+    { id: 11, name: "Search returns ranked suggestions", suite: "Navigation", browser: "Chromium", status: "passed", duration: 6.04, error: "", retries: 0, startTime: "09:40:36", endTime: "09:40:42" },
+    { id: 12, name: "Account deletion requires confirmation", suite: "Authentication", browser: "Firefox", status: "failed", duration: 11.38, error: "Confirmation modal did not become visible", retries: 1, startTime: "09:40:42", endTime: "09:40:53", stack: "TimeoutError: locator.waitFor: Timeout 10000ms exceeded\nLocator: getByRole('dialog', { name: 'Delete account' })\n    at AccountPage.confirmDeletion (pages/accountPage.ts:119:22)\n    at account.spec.ts:73:15", screenshot: "assets/img/modal-failure.svg", trace: "../test-results/account-deletion/trace.zip" },
+    { id: 13, name: "Mobile menu closes on navigation", suite: "Navigation", browser: "Mobile Chrome", status: "passed", duration: 3.11, error: "", retries: 0, startTime: "09:40:53", endTime: "09:40:56" },
+    { id: 14, name: "WCAG landmarks are unique", suite: "Accessibility", browser: "Chromium", status: "passed", duration: 1.95, error: "", retries: 0, startTime: "09:40:56", endTime: "09:40:58" },
+    { id: 15, name: "Payment decline preserves cart", suite: "Checkout", browser: "WebKit", status: "skipped", duration: 0, error: "Payment sandbox unavailable", retries: 0, startTime: "09:40:58", endTime: "09:40:58" },
+    { id: 16, name: "Health endpoint reports dependencies", suite: "API", browser: "API", status: "passed", duration: 0.46, error: "", retries: 0, startTime: "09:40:58", endTime: "09:40:59" },
+    { id: 17, name: "Profile avatar upload is persisted", suite: "Authentication", browser: "Chromium", status: "passed", duration: 8.27, error: "", retries: 0, startTime: "09:40:59", endTime: "09:41:07" },
+    { id: 18, name: "Footer links resolve without redirects", suite: "Navigation", browser: "Firefox", status: "passed", duration: 4.02, error: "", retries: 0, startTime: "09:41:07", endTime: "09:41:11" },
+  ],
+};

@@ -1,0 +1,178 @@
+[   12790ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[   12790ms] [ERROR] Manifest fetch from https://www.languagecert.org/site.webmanifest failed, code 404 @ https://www.languagecert.org/en/gr?utm_source=google&utm_source_platform=Google+Ads&utm_medium=cpc&utm_campaign=REL_202108_LQ_ESOL_PERF_GSN_BRAND_GR_ALL_LANGUAGECERT&utm_id=13920749640&utm_content=generic&gad_source=1&gad_campaignid=13920749640&gbraid=0AAAAACpIvA0yFHBxL5CUj7mKI0K6R3tiL&gclid=EAIaIQobChMIn8Hvm8v3lQMVeZmDBx2gTyoSEAAYASAAEgIpxPD_BwE:5528
+[   12934ms] [LOG] {userId: 0, userStatus: loggedOff} @ https://www.languagecert.org/en/gr?utm_source=google&utm_source_platform=Google+Ads&utm_medium=cpc&utm_campaign=REL_202108_LQ_ESOL_PERF_GSN_BRAND_GR_ALL_LANGUAGECERT&utm_id=13920749640&utm_content=generic&gad_source=1&gad_campaignid=13920749640&gbraid=0AAAAACpIvA0yFHBxL5CUj7mKI0K6R3tiL&gclid=EAIaIQobChMIn8Hvm8v3lQMVeZmDBx2gTyoSEAAYASAAEgIpxPD_BwE:5543
+[   12970ms] [LOG] Script successfully loaded in head. @ https://www.languagecert.org/en/gr?utm_source=google&utm_source_platform=Google+Ads&utm_medium=cpc&utm_campaign=REL_202108_LQ_ESOL_PERF_GSN_BRAND_GR_ALL_LANGUAGECERT&utm_id=13920749640&utm_content=generic&gad_source=1&gad_campaignid=13920749640&gbraid=0AAAAACpIvA0yFHBxL5CUj7mKI0K6R3tiL&gclid=EAIaIQobChMIn8Hvm8v3lQMVeZmDBx2gTyoSEAAYASAAEgIpxPD_BwE:85
+[   13173ms] [LOG] 0 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[   13188ms] [LOG] 1 @ https://www.languagecert.org/scripts/langcert/all_LANGCERT.js?260716:4705
+[   13345ms] [ERROR] Permissions policy violation: compute-pressure is not allowed in this document. @ https://www.youtube.com/s/player/b81a9a58/player_embed_es6.vflset/en_US/base.js:5302
+[   13393ms] [ERROR] ❌ CAPTCHA load failed: TypeError: Cannot set properties of null (setting 'src')
+    at https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:13:210775 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[   13865ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[   13865ms] [ERROR] Manifest fetch from https://www.languagecert.org/site.webmanifest failed, code 404 @ https://www.languagecert.org/en/gr?utm_source=google&utm_source_platform=Google+Ads&utm_medium=cpc&utm_campaign=REL_202108_LQ_ESOL_PERF_GSN_BRAND_GR_ALL_LANGUAGECERT&utm_id=13920749640&utm_content=generic&gad_source=1&gad_campaignid=13920749640&gbraid=0AAAAACpIvA0yFHBxL5CUj7mKI0K6R3tiL&gclid=EAIaIQobChMIn8Hvm8v3lQMVeZmDBx2gTyoSEAAYASAAEgIpxPD_BwE:0
+[   29940ms] [LOG] {userId: 0, userStatus: loggedOff} @ https://www.languagecert.org/en/landing-pages/gr:5543
+[   29949ms] [LOG] Script successfully loaded in head. @ https://www.languagecert.org/en/landing-pages/gr:85
+[   30060ms] [LOG] 0 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[   30063ms] [LOG] 1 @ https://www.languagecert.org/scripts/langcert/all_LANGCERT.js?260716:4705
+[   30168ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[   30168ms] [ERROR] Manifest fetch from https://www.languagecert.org/site.webmanifest failed, code 404 @ https://www.languagecert.org/en/landing-pages/gr:0
+[   30298ms] [ERROR] ❌ CAPTCHA load failed: TypeError: Cannot set properties of null (setting 'src')
+    at https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:13:210775 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[   30312ms] [ERROR] Permissions policy violation: compute-pressure is not allowed in this document. @ https://www.youtube.com/s/player/b81a9a58/player_embed_es6.vflset/en_US/base.js:5302
+[   42053ms] [LOG] {userId: 0, userStatus: loggedOff} @ https://www.languagecert.org/en:5662
+[   42059ms] [LOG] Script successfully loaded in head. @ https://www.languagecert.org/en:88
+[   42227ms] [LOG] 0 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[   42234ms] [LOG] 1 @ https://www.languagecert.org/scripts/langcert/all_LANGCERT.js?260716:4705
+[   42468ms] [ERROR] ❌ CAPTCHA load failed: TypeError: Cannot set properties of null (setting 'src')
+    at https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:13:210775 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[   47607ms] [WARNING] botframework-webchat: "styleOptions.bubbleImageHeight" has been deprecated. Use "styleOptions.bubbleImageMaxHeight" and "styleOptions.bubbleImageMinHeight" instead. This deprecation migration will be removed on or after 2026-07-05.. @ https://oc-cdn-public-eur.azureedge.net/livechatwidget/v2scripts/webchat.js:1
+[   47608ms] [WARNING] botframework-webchat: "styleOptions.bubbleMaxWidth" has been deprecated. Use "styleOptions.bubbleAttachmentMaxWidth" and "styleOptions.bubbleMessageMaxWidth" instead. This deprecation migration will be removed on or after 2026-07-05.. @ https://oc-cdn-public-eur.azureedge.net/livechatwidget/v2scripts/webchat.js:1
+[   47608ms] [WARNING] botframework-webchat: "styleOptions.bubbleMinWidth" has been deprecated. Use "styleOptions.bubbleAttachmentMinWidth" and "styleOptions.bubbleMessageMinWidth" instead. This deprecation migration will be removed on or after 2026-07-05.. @ https://oc-cdn-public-eur.azureedge.net/livechatwidget/v2scripts/webchat.js:1
+[   48588ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+GlobalNavButton, ChevronDown, ChevronUp, Edit, Add, Cancel, More, Settings, Mail, Filter (+ 1791 more) @ https://oc-cdn-public-eur.azureedge.net/livechatwidget/v2scripts/ocw.js:93
+[  385991ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[  385991ms] [ERROR] Manifest fetch from https://www.languagecert.org/site.webmanifest failed, code 404 @ https://www.languagecert.org/en/language-exams/english/languagecert-academic/academic:0
+[  386606ms] [LOG] {userId: 0, userStatus: loggedOff} @ https://www.languagecert.org/en/language-exams/english/languagecert-academic/academic:6316
+[  386614ms] [LOG] Script successfully loaded in head. @ https://www.languagecert.org/en/language-exams/english/languagecert-academic/academic:85
+[  386866ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386868ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386869ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386871ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386871ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386872ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386874ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386874ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386875ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386879ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386879ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386880ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386883ms] [LOG] 0 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  386891ms] [LOG] 1 @ https://www.languagecert.org/scripts/langcert/all_LANGCERT.js?260716:4705
+[  387115ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387116ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387117ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387121ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387123ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387124ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387128ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387129ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387130ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387135ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387136ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387137ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387191ms] [ERROR] ❌ CAPTCHA load failed: TypeError: Cannot set properties of null (setting 'src')
+    at https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:13:210775 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  387406ms] [LOG] {conversionfunnelStage: Purchase Options, event: cf_stage} @ https://www.languagecert.org/scripts/GA4-functions.js?260609:221
+[  387986ms] [LOG] {event: [GA4]view_items_list, ecommerce: Object} @ https://www.languagecert.org/scripts/GA4-functions.js?260609:242
+[  398296ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398296ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398297ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398298ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398298ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398299ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398301ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398301ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398302ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398305ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398306ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398307ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  398700ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[  477945ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477946ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477947ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477950ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477951ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477952ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477956ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477958ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477959ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477963ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477964ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  477965ms] [LOG] i.fn.init @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  487005ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[  487005ms] [ERROR] Manifest fetch from https://www.languagecert.org/site.webmanifest failed, code 404 @ https://www.languagecert.org/en/language-exams/english/languagecert-esol-selt:143
+[  487324ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[  487324ms] [ERROR] Manifest fetch from https://www.languagecert.org/site.webmanifest failed, code 404 @ https://www.languagecert.org/en/language-exams/english/languagecert-esol-selt:0
+[  487485ms] [LOG] {userId: 0, userStatus: loggedOff} @ https://www.languagecert.org/en/language-exams/english/languagecert-esol-selt:5593
+[  487488ms] [LOG] Script successfully loaded in head. @ https://www.languagecert.org/en/language-exams/english/languagecert-esol-selt:85
+[  487597ms] [LOG] {
+                              "formName": "ProductFamilyPage",
+                              "checkboxes": {"Suitable for" : {"Further Leave to Remain" : {
+                                                "options" : [],
+                                                "image" : "" ,
+                                                "height" : "20" ,
+                                                "width" : "20" ,
+                                                "title" : "Further Leave to Remain" ,
+                                                "spacing" : "6" ,
+                                                "filterKey" : "" ,
+                                                "filterValue" :   "{9BDB0933-21F4-4BC7-8EE0-12B51A72B8F4}|{00741B93-FD1C-4F81-ABEE-B7E4DDC53F43}" ,
+                                                "text" : "Further Leave to Remain" ,
+                                                "type" :"checkbox",
+                                                "OnChangeEventName": "filterProducts(this)"
+                                            },"Settlement and citizenship" : {
+                                                "options" : [],
+                                                "image" : "" ,
+                                                "height" : "20" ,
+                                                "width" : "20" ,
+                                                "title" : "Settlement and citizenship" ,
+                                                "spacing" : "6" ,
+                                                "filterKey" : "" ,
+                                                "filterValue" :   "{FE0075C1-0ED9-4DB3-82DB-2636B1878674}" ,
+                                                "text" : "Settlement and citizenship" ,
+                                                "type" :"checkbox",
+                                                "OnChangeEventName": "filterProducts(this)"
+                                            },"UK student visa" : {
+                                                "options" : [],
+                                                "image" : "" ,
+                                                "height" : "20" ,
+                                                "width" : "20" ,
+                                                "title" : "UK student visa" ,
+                                                "spacing" : "6" ,
+                                                "filterKey" : "" ,
+                                                "filterValue" :   "{822721D8-5869-40BB-B19F-87913D6C9703}" ,
+                                                "text" : "UK student visa" ,
+                                                "type" :"checkbox",
+                                                "OnChangeEventName": "filterProducts(this)"
+                                            },"UK work visa" : {
+                                                "options" : [],
+                                                "image" : "" ,
+                                                "height" : "20" ,
+                                                "width" : "20" ,
+                                                "title" : "UK work visa" ,
+                                                "spacing" : "6" ,
+                                                "filterKey" : "" ,
+                                                "filterValue" :   "{9BDB0933-21F4-4BC7-8EE0-12B51A72B8F4}|{4456B2A6-E763-4892-887E-4D401D5FA1EF}" ,
+                                                "text" : "UK work visa" ,
+                                                "type" :"checkbox",
+                                                "OnChangeEventName": "filterProducts(this)"
+                                            }}},
+                              "exclusive": [],
+                                "desktop": {
+                                    "placement": ["after", ".hello"]
+                                },
+                                "mobile": {
+                                    "placement" :["before", ".checkbox-wrapper"],
+                                    "isPopup": true,
+                                    "popupTrigger": ".btn-checkboxes-trigger",
+                                    "popupTriggerPlacement":["before", ".main-content-holder"]
+                                },
+                                  "checkboxFormPadding": "20px 22px",
+		                          "filterBtnSpacingTopBottom": "20px",
+		                          "filterBtnSpacingLeftRight": "0px",
+		                          "wrapper":"aside"
+                                } @ https://www.languagecert.org/en/language-exams/english/languagecert-esol-selt:5214
+[  487619ms] [LOG] 0 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  487631ms] [LOG] 1 @ https://www.languagecert.org/scripts/langcert/all_LANGCERT.js?260716:4705
+[  488085ms] [ERROR] ❌ CAPTCHA load failed: TypeError: Cannot set properties of null (setting 'src')
+    at https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:13:210775 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  496076ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[  746067ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[  746068ms] [ERROR] Manifest fetch from https://www.languagecert.org/site.webmanifest failed, code 404 @ https://www.languagecert.org/en/language-exams/english/languagecert-for-tfl/languagecert-esol-b1-tfl:5310
+[  746073ms] [LOG] {userId: 0, userStatus: loggedOff} @ https://www.languagecert.org/en/language-exams/english/languagecert-for-tfl/languagecert-esol-b1-tfl:5320
+[  746083ms] [LOG] Script successfully loaded in head. @ https://www.languagecert.org/en/language-exams/english/languagecert-for-tfl/languagecert-esol-b1-tfl:85
+[  746359ms] [LOG] 0 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  746378ms] [LOG] 1 @ https://www.languagecert.org/scripts/langcert/all_LANGCERT.js?260716:4705
+[  746549ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0
+[  746550ms] [ERROR] Manifest fetch from https://www.languagecert.org/site.webmanifest failed, code 404 @ https://www.languagecert.org/en/language-exams/english/languagecert-for-tfl/languagecert-esol-b1-tfl:0
+[  746649ms] [ERROR] ❌ CAPTCHA load failed: TypeError: Cannot set properties of null (setting 'src')
+    at https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:13:210775 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[  782375ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.languagecert.org/site.webmanifest:0

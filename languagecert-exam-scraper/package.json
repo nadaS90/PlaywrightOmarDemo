@@ -1,0 +1,7 @@
+{
+  "name": "languagecert-exam-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "test": "playwright test", "scrape": "playwright test tests/languagecert-exams.spec.ts --project=chromium" },
+  "devDependencies": { "@playwright/test": "^1.62.0", "@types/node": "^26.1.1", "typescript": "^5.9.2" }
+}

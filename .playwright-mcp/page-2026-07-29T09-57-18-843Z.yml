@@ -1,0 +1,531 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e18]:
+    - banner [ref=e19]:
+      - navigation [ref=e20]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Test Takers" [ref=e23] [cursor=pointer]:
+              - /url: /en/
+          - listitem [ref=e24]:
+            - link "Partners" [ref=e25] [cursor=pointer]:
+              - /url: /en/partners
+          - listitem [ref=e26]:
+            - link "Institutions" [ref=e27] [cursor=pointer]:
+              - /url: /en/for-institutions
+          - listitem [ref=e28]:
+            - link "Teachers" [ref=e29] [cursor=pointer]:
+              - /url: /en/for-teachers
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Blog" [ref=e32] [cursor=pointer]:
+              - /url: /en/about-us/blog
+          - listitem [ref=e33]:
+            - link "PeopleCert" [ref=e34] [cursor=pointer]:
+              - /url: https://www.peoplecert.org/
+          - listitem [ref=e35]:
+            - link "Research" [ref=e36] [cursor=pointer]:
+              - /url: /en/research
+          - listitem [ref=e37]:
+            - link "About us" [ref=e38] [cursor=pointer]:
+              - /url: /en/about-us
+          - generic [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]: EN|
+            - generic [ref=e45]: GR
+      - navigation [ref=e46]:
+        - link [ref=e47] [cursor=pointer]:
+          - /url: /en
+        - list [ref=e64]:
+          - listitem [ref=e65]:
+            - link "Language Tests" [ref=e66] [cursor=pointer]:
+              - /url: https://www.languagecert.org/en/explore-languagecert-exams
+            - generic [ref=e323]:
+              - generic [ref=e324]:
+                - link "Academic University & College admission" [ref=e325] [cursor=pointer]:
+                  - /url: /en/language-exams/english/languagecert-academic/academic
+                - link "General Work & General Purposes" [ref=e326] [cursor=pointer]:
+                  - /url: /en/language-exams/english/languagecert-general/general
+                - link "SELT for UKVI Migration to the UK" [ref=e327] [cursor=pointer]:
+                  - /url: /en/language-exams/english/languagecert-esol-selt
+              - generic [ref=e328]:
+                - link "ESOL Study & General Purposes" [ref=e329] [cursor=pointer]:
+                  - /url: /en/language-exams/english/languagecert-international-esol
+                - link "ESOL for Schools For Learners Aged 12-16" [ref=e330] [cursor=pointer]:
+                  - /url: /en/language-exams/english/languagecert-esol-for-schools
+                - link "ESOL Young Learners For Learners Aged 7-12" [ref=e331] [cursor=pointer]:
+                  - /url: /en/language-exams/english/languagecert-young-learners-esol
+              - generic [ref=e332]:
+                - link "LTE Professional Purposes" [ref=e333] [cursor=pointer]:
+                  - /url: /en/language-exams/english/languagecert-test-of-english-lte
+                - link "TfL English exam for Transport for London" [ref=e334] [cursor=pointer]:
+                  - /url: /en/language-exams/english/languagecert-for-tfl/languagecert-esol-b1-tfl
+              - generic [ref=e335]:
+                - link "Classical Greek Personal Development" [ref=e336] [cursor=pointer]:
+                  - /url: /en/language-exams/classical-greek/languagecert-test-of-classical-greek
+                - link "Which test do I need?" [ref=e338] [cursor=pointer]:
+                  - /url: https://www.languagecert.org/en/explore-languagecert-exams
+          - listitem [ref=e69]:
+            - generic "UK & Australia Visa Tests" [ref=e70]
+          - listitem [ref=e73]:
+            - link "Who accepts us" [ref=e74] [cursor=pointer]:
+              - /url: /en/who-accepts-our-exams
+          - listitem [ref=e77]:
+            - generic "Your Test Journey" [ref=e78]
+          - listitem [ref=e81]:
+            - generic "Help Centre" [ref=e82]
+        - generic [ref=e85]:
+          - button "Search" [ref=e86] [cursor=pointer]
+          - link "Shopping Cart" [ref=e89] [cursor=pointer]:
+            - /url: /en/account/shopping-cart
+          - link "Login" [ref=e92] [cursor=pointer]:
+            - /url: "#"
+      - text: "|"
+    - main [ref=e95]:
+      - generic [ref=e99]:
+        - generic [ref=e102]:
+          - generic [ref=e105]:
+            - heading "LANGUAGECERT Academic for Australian visas" [level=1] [ref=e109]
+            - generic [ref=e112]:
+              - heading "Approved by the Department of Home Affairs!" [level=2] [ref=e113]
+              - link "Book now" [ref=e114] [cursor=pointer]:
+                - /url: /en/language-exams/english/languagecert-academic/academic-for-australian-visas
+          - generic [ref=e118]:
+            - heading "Study abroad with LANGUAGECERT" [level=1] [ref=e122]
+            - generic [ref=e125]:
+              - heading "The English Test accepted globally" [level=2] [ref=e126]
+              - link "Book now" [ref=e127] [cursor=pointer]:
+                - /url: /en/study-abroad-with-languagecert
+          - generic [ref=e131]:
+            - heading "Applying to UKVI for a visa, visa renewal, settlement or British citizenship?" [level=1] [ref=e135]: Applying to UKVIfor a visa, visa renewal, settlementor British citizenship?
+            - generic [ref=e138]:
+              - heading "Limited-time offer!" [level=2] [ref=e139]
+              - link "Book your exam" [ref=e140] [cursor=pointer]:
+                - /url: https://selt.languagecert.org/
+          - generic [ref=e144]:
+            - heading "SELT exams approved by the UKVI" [level=1] [ref=e148]
+            - generic [ref=e151]:
+              - heading "Convenient exam dates at SELT Test Centres near you" [level=2] [ref=e152]
+              - link "Book now" [ref=e153] [cursor=pointer]:
+                - /url: https://selt.languagecert.org/
+        - list [ref=e157]:
+          - listitem [ref=e158]: "1"
+          - listitem [ref=e159]: "2"
+          - listitem [ref=e160]: "3"
+          - listitem [ref=e161]: "4"
+      - generic [ref=e162]:
+        - iframe [ref=e164]:
+          - generic [ref=f4e2]:
+            - link "Trustpilot reviews. Rated Excellent. 4.6 out of 5. Based on 6,462 reviews on Trustpilot. Click to view Trustpilot profile." [ref=f4e4] [cursor=pointer]:
+              - /url: https://uk.trustpilot.com/review/www.languagecert.org?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f4e5]: Excellent
+              - img "4.6 out of 5 star rating on Trustpilot" [ref=f4e10]
+              - generic [ref=f4e30]:
+                - text: Based on
+                - strong [ref=f4e31]: 6,462 reviews
+              - img "Trustpilot" [ref=f4e35]
+            - generic [ref=f4e39]:
+              - generic:
+                - button "Carousel scroll left" [disabled]
+              - button "Carousel scroll right" [ref=f4e41] [cursor=pointer]
+              - list "Showing our 5 star reviews" [ref=f4e48]:
+                - listitem [ref=f4e49]:
+                  - generic [ref=f4e50]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e55]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e77] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e78]: Verified
+                  - link "Review by Jolanta, 10 hours ago Friendly staff Friendly staff, welcoming atmosphere. Examiners lady was very nice, I was nervou... Click to view the full review on Trustpilot" [ref=f4e85] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a692bb35a70a56c2fafff17?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e86]:
+                      - generic [ref=f4e87]:
+                        - generic [ref=f4e88]: Review by
+                        - generic [ref=f4e89]: Jolanta,
+                        - generic [ref=f4e90]: 10 hours ago
+                      - generic [ref=f4e91]: Friendly staff
+                      - generic [ref=f4e92]: Friendly staff, welcoming atmosphere. Examiners lady was very nice, I was nervou...
+                      - generic [ref=f4e93]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e94]:
+                  - generic [ref=f4e95]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e100]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e122] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e123]: Verified
+                  - link "Review by Nimra Kousar, 14 hours ago It was my first time booking the test… It was my first time booking the test online i wasn't able to do it properly th... Click to view the full review on Trustpilot" [ref=f4e130] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a68e65dbaac16696f17bcdf?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e131]:
+                      - generic [ref=f4e132]:
+                        - generic [ref=f4e133]: Review by
+                        - generic [ref=f4e134]: Nimra Kousar,
+                        - generic [ref=f4e135]: 14 hours ago
+                      - generic [ref=f4e136]: It was my first time booking the test…
+                      - generic [ref=f4e137]: It was my first time booking the test online i wasn't able to do it properly th...
+                      - generic [ref=f4e138]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e139]:
+                  - generic [ref=f4e140]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e145]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e167] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e168]: Verified
+                  - link "Review by Pierrette Mbonankira, 16 hours ago The service was amazing and the staff… The service was amazing and the staff was very helpful and friendly Click to view the full review on Trustpilot" [ref=f4e175] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a68ccceaae1e17884cea2bb?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e176]:
+                      - generic [ref=f4e177]:
+                        - generic [ref=f4e178]: Review by
+                        - generic [ref=f4e179]: Pierrette Mbonankira,
+                        - generic [ref=f4e180]: 16 hours ago
+                      - generic [ref=f4e181]: The service was amazing and the staff…
+                      - generic [ref=f4e182]: The service was amazing and the staff was very helpful and friendly
+                      - generic [ref=f4e183]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e184]:
+                  - generic [ref=f4e185]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e190]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e212] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e213]: Verified
+                  - link "Review by Svetlana Bosanac, 18 hours ago Everything is good! Everything is good! Click to view the full review on Trustpilot" [ref=f4e220] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a68aed2ef4898707274cd7a?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e221]:
+                      - generic [ref=f4e222]:
+                        - generic [ref=f4e223]: Review by
+                        - generic [ref=f4e224]: Svetlana Bosanac,
+                        - generic [ref=f4e225]: 18 hours ago
+                      - generic [ref=f4e226]: Everything is good!
+                      - generic [ref=f4e227]: Everything is good!
+                      - generic [ref=f4e228]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e229]:
+                  - generic [ref=f4e230]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e235]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e257] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e258]: Verified
+                  - link "Review by Aruna Gurung, 18 hours ago It was absolutely wonderful being there… It was absolutely wonderful being there and amazingly better than expected. Click to view the full review on Trustpilot" [ref=f4e265] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a68ae339b91ed2024f26533?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e266]:
+                      - generic [ref=f4e267]:
+                        - generic [ref=f4e268]: Review by
+                        - generic [ref=f4e269]: Aruna Gurung,
+                        - generic [ref=f4e270]: 18 hours ago
+                      - generic [ref=f4e271]: It was absolutely wonderful being there…
+                      - generic [ref=f4e272]: It was absolutely wonderful being there and amazingly better than expected.
+                      - generic [ref=f4e273]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e274]:
+                  - generic [ref=f4e275]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e280]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e302] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e303]: Verified
+                  - link "Review by Haleema Tayyab, 19 hours ago It was good…staff was cooperative. It was good…staff was cooperative. Click to view the full review on Trustpilot" [ref=f4e310] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a68ace3601bdc77d9a5b387?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e311]:
+                      - generic [ref=f4e312]:
+                        - generic [ref=f4e313]: Review by
+                        - generic [ref=f4e314]: Haleema Tayyab,
+                        - generic [ref=f4e315]: 19 hours ago
+                      - generic [ref=f4e316]: It was good…staff was cooperative.
+                      - generic [ref=f4e317]: It was good…staff was cooperative.
+                      - generic [ref=f4e318]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e319]:
+                  - generic [ref=f4e320]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e325]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e347] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e348]: Verified
+                  - link "Review by Amabara Douglas, 23 hours ago Great thanks Great thanks Click to view the full review on Trustpilot" [ref=f4e355] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a686814b899e375779b2902?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e356]:
+                      - generic [ref=f4e357]:
+                        - generic [ref=f4e358]: Review by
+                        - generic [ref=f4e359]: Amabara Douglas,
+                        - generic [ref=f4e360]: 23 hours ago
+                      - generic [ref=f4e361]: Great thanks
+                      - generic [ref=f4e362]: Great thanks
+                      - generic [ref=f4e363]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e364]:
+                  - generic [ref=f4e365]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e370]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e392] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e393]: Verified
+                  - link "Review by MAKA, 1 day ago Easy access of metirial to use for… Easy access of metirial to use for practise.and profesionalism was mantained.i g... Click to view the full review on Trustpilot" [ref=f4e400] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a6861981d0215bae68bc359?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e401]:
+                      - generic [ref=f4e402]:
+                        - generic [ref=f4e403]: Review by
+                        - generic [ref=f4e404]: MAKA,
+                        - generic [ref=f4e405]: 1 day ago
+                      - generic [ref=f4e406]: Easy access of metirial to use for…
+                      - generic [ref=f4e407]: Easy access of metirial to use for practise.and profesionalism was mantained.i g...
+                      - generic [ref=f4e408]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e409]:
+                  - generic [ref=f4e410]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e415]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e437] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e438]: Verified
+                  - link "Review by Juliet Ebhota Egharevba, 1 day ago The staff where so helpful The staff where so helpful. I thought i will be scared. They're all friendly. I... Click to view the full review on Trustpilot" [ref=f4e445] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a6804c749b6df56eae2110e?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e446]:
+                      - generic [ref=f4e447]:
+                        - generic [ref=f4e448]: Review by
+                        - generic [ref=f4e449]: Juliet Ebhota Egharevba,
+                        - generic [ref=f4e450]: 1 day ago
+                      - generic [ref=f4e451]: The staff where so helpful
+                      - generic [ref=f4e452]: The staff where so helpful. I thought i will be scared. They're all friendly. I...
+                      - generic [ref=f4e453]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e454]:
+                  - generic [ref=f4e455]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e460]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e482] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e483]: Verified
+                  - link "Review by Antonio, 1 day ago Perfect and profesional staff Perfect and profesional staff Click to view the full review on Trustpilot" [ref=f4e490] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a67d4e226271d13c3c1759a?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e491]:
+                      - generic [ref=f4e492]:
+                        - generic [ref=f4e493]: Review by
+                        - generic [ref=f4e494]: Antonio,
+                        - generic [ref=f4e495]: 1 day ago
+                      - generic [ref=f4e496]: Perfect and profesional staff
+                      - generic [ref=f4e497]: Perfect and profesional staff
+                      - generic [ref=f4e498]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e499]:
+                  - generic [ref=f4e500]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e505]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e527] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e528]: Verified
+                  - link "Review by Sabita rani Roy, 2 days ago V.good and i have passed helped for me Very good All staf ,examinar behavior . I passed this exam Click to view the full review on Trustpilot" [ref=f4e535] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a67a879066b6b4a0c10436f?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e536]:
+                      - generic [ref=f4e537]:
+                        - generic [ref=f4e538]: Review by
+                        - generic [ref=f4e539]: Sabita rani Roy,
+                        - generic [ref=f4e540]: 2 days ago
+                      - generic [ref=f4e541]: V.good and i have passed helped for me
+                      - generic [ref=f4e542]: Very good All staf ,examinar behavior . I passed this exam
+                      - generic [ref=f4e543]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e544]:
+                  - generic [ref=f4e545]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e550]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e572] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e573]: Verified
+                  - link "Review by Thayani Thaventhirarasa, 2 days ago I was lucky that the centre was very… I was lucky that the centre was very local and accessible for me. Very easy to l... Click to view the full review on Trustpilot" [ref=f4e580] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a67a56e200eec3b96e7f949?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e581]:
+                      - generic [ref=f4e582]:
+                        - generic [ref=f4e583]: Review by
+                        - generic [ref=f4e584]: Thayani Thaventhirarasa,
+                        - generic [ref=f4e585]: 2 days ago
+                      - generic [ref=f4e586]: I was lucky that the centre was very…
+                      - generic [ref=f4e587]: I was lucky that the centre was very local and accessible for me. Very easy to l...
+                      - generic [ref=f4e588]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e589]:
+                  - generic [ref=f4e590]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e595]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e617] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e618]: Verified
+                  - link "Review by Makda Teshale Gebretsadik, 2 days ago Amazing team Everyone was really nice and i was done with my exam as stated in the email. Click to view the full review on Trustpilot" [ref=f4e625] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a67a5486e63a88999eb0ffe?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e626]:
+                      - generic [ref=f4e627]:
+                        - generic [ref=f4e628]: Review by
+                        - generic [ref=f4e629]: Makda Teshale Gebretsadik,
+                        - generic [ref=f4e630]: 2 days ago
+                      - generic [ref=f4e631]: Amazing team
+                      - generic [ref=f4e632]: Everyone was really nice and i was done with my exam as stated in the email.
+                      - generic [ref=f4e633]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e634]:
+                  - generic [ref=f4e635]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e640]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e662] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e663]: Verified
+                  - link "Review by Zaidin Bin Saioon, 2 days ago The process from the booking until… The process from the booking until receiving the result is excellent Click to view the full review on Trustpilot" [ref=f4e670] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a6798502ae7e925f1ca57a3?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e671]:
+                      - generic [ref=f4e672]:
+                        - generic [ref=f4e673]: Review by
+                        - generic [ref=f4e674]: Zaidin Bin Saioon,
+                        - generic [ref=f4e675]: 2 days ago
+                      - generic [ref=f4e676]: The process from the booking until…
+                      - generic [ref=f4e677]: The process from the booking until receiving the result is excellent
+                      - generic [ref=f4e678]: Click to view the full review on Trustpilot
+                - listitem [ref=f4e679]:
+                  - generic [ref=f4e680]:
+                    - img "5 out of 5 star rating on Trustpilot" [ref=f4e685]
+                    - link "Verified review. Click to learn more about review types" [ref=f4e707] [cursor=pointer]:
+                      - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=en_US
+                      - generic [ref=f4e708]: Verified
+                  - link "Review by yaqoob dar, 2 days ago Whole process overall was easy nice… Whole process overall was easy nice staff no issues with parking good experience... Click to view the full review on Trustpilot" [ref=f4e715] [cursor=pointer]:
+                    - /url: https://uk.trustpilot.com/reviews/6a677e39a61283d6f7624e78?utm_medium=trustbox&utm_source=Carousel
+                    - generic [ref=f4e716]:
+                      - generic [ref=f4e717]:
+                        - generic [ref=f4e718]: Review by
+                        - generic [ref=f4e719]: yaqoob dar,
+                        - generic [ref=f4e720]: 2 days ago
+                      - generic [ref=f4e721]: Whole process overall was easy nice…
+                      - generic [ref=f4e722]: Whole process overall was easy nice staff no issues with parking good experience...
+                      - generic [ref=f4e723]: Click to view the full review on Trustpilot
+              - generic [ref=f4e724]: Showing our 5 star reviews
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - heading "The LANGUAGECERT difference" [level=2] [ref=e168]
+            - paragraph [ref=e169]:
+              - text: LANGUAGECERT is committed to developing and delivering high-quality, internationally recognised language exams that enhance the career, education and life prospects of individuals worldwide. Discover our exams
+              - link "here" [ref=e170] [cursor=pointer]:
+                - /url: https://www.LANGUAGECERT.org/en/explore-languagecert-exams
+              - text: .
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - img "Reliable" [ref=e174]
+              - generic [ref=e175]:
+                - heading "Reliable" [level=6] [ref=e176]
+                - generic [ref=e177]: High-quality, reliable exams developed to the most rigorous standards.
+            - generic [ref=e178]:
+              - img "Innovative" [ref=e180]
+              - generic [ref=e181]:
+                - heading "Innovative" [level=6] [ref=e182]
+                - generic [ref=e183]: Flexible and pioneering exam administration technologies and systems.
+            - generic [ref=e184]:
+              - img "Recognised" [ref=e186]
+              - generic [ref=e187]:
+                - heading "Recognised" [level=6] [ref=e188]
+                - generic [ref=e189]: Accepted by official authorities, organisations and Higher Education Institutions globally.
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - heading "Live, work or study abroad with LANGUAGECERT" [level=2] [ref=e193]
+            - paragraph [ref=e194]: LANGUAGECERT tests open a world full of possibilities.
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - img "United Kingdom" [ref=e198]
+              - generic [ref=e199]:
+                - heading "United Kingdom" [level=6] [ref=e200]
+                - generic [ref=e201]: Recognised by universities and colleges in the UK. Approved by the Home Office (UKVI) for all visa categories.
+                - link "Learn more" [ref=e203] [cursor=pointer]:
+                  - /url: https://selt.languagecert.org/
+            - generic [ref=e207]:
+              - img "Australia" [ref=e209]
+              - generic [ref=e210]:
+                - heading "Australia" [level=6] [ref=e211]
+                - generic [ref=e212]: Accepted by the Department of Home Affairs (DHA) for all visa categories.
+                - link "Learn more" [ref=e214] [cursor=pointer]:
+                  - /url: /en/get-to-know-languagecert-academic-for-australian-visas
+            - generic [ref=e218]:
+              - img "New Zealand" [ref=e220]
+              - generic [ref=e221]:
+                - heading "New Zealand" [level=6] [ref=e222]
+                - generic [ref=e223]: Accepted by the New Zealand Qualifications Authority (NZQA) for admission into all programme levels for international students.
+                - link "Learn more" [ref=e225] [cursor=pointer]:
+                  - /url: /en/study-in-new-zealand
+        - generic [ref=e230]:
+          - img "Get inspired by real success stories with LANGUAGECERT" [ref=e232]
+          - generic [ref=e233]:
+            - heading "Get inspired by real success stories with LANGUAGECERT" [level=2] [ref=e234]
+            - generic [ref=e235]:
+              - text: Discover how three individuals from around the world turned their dream of moving to the UK into reality with the help of a LANGUAGECERT qualification. Their real stories of growth, resilience, and success reflect what’s possible when language becomes a bridge to opportunity.
+              - link "Learn more" [ref=e237] [cursor=pointer]:
+                - /url: /en/from-dreams-to-reality
+        - generic [ref=e239]:
+          - img "Innovation in language testing" [ref=e241]
+          - generic [ref=e242]:
+            - heading "Innovation in language testing" [level=2] [ref=e243]
+            - generic [ref=e244]:
+              - text: Based on PeopleCert’s proprietary, award-winning technology,
+              - strong [ref=e245]: LANGUAGECERT Online exams
+              - text: with remote, live invigilation provide
+              - strong [ref=e246]: a secure and reliable
+              - text: way for candidates of all ages to take high-stakes,
+              - strong [ref=e247]: internationally recognised language exams
+              - text: from their preferred location
+              - strong [ref=e248]: without having to visit a Test Centre
+              - text: . The booking system is flexible and tailored to the candidate’s personal schedule, while the whole process is simple and secure with
+              - strong [ref=e249]: results available in up to 5 working days
+              - text: .
+              - link "Learn more" [ref=e251] [cursor=pointer]:
+                - /url: /en/exam-types/online-exams
+        - generic [ref=e253]:
+          - img "Recognition" [ref=e255]
+          - generic [ref=e256]:
+            - heading "Recognition" [level=2] [ref=e257]
+            - generic [ref=e258]:
+              - paragraph [ref=e259]: LANGUAGECERT offers high-stakes exams that are officially recognised by an ever-growing number of Higher Education Institutions, organisations and government bodies internationally.
+              - paragraph [ref=e260]: LANGUAGECERT is regulated by Ofqual and Qualification Wales. It is an approved provider of secure exams for UK Visas & Immigration by the UK Home Office, as well as by the Australian Department of Home Affairs for all visa categories that require proof of English proficiency.
+              - link "Learn more" [ref=e262] [cursor=pointer]:
+                - /url: /en/about-us/recognition
+    - contentinfo [ref=e263]:
+      - generic [ref=e266]:
+        - generic [ref=e267]:
+          - generic:
+            - link:
+              - /url: "#"
+          - paragraph [ref=e269]:
+            - strong [ref=e270]: © 2026 LANGUAGECERT
+            - text: LANGUAGECERT is a business name of PeopleCertQualifications Ltd. UK company number 09620926. 192 Sloane Street, London, SW1X 9QX
+        - generic [ref=e273]:
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - heading "Call us" [level=6] [ref=e276]
+              - paragraph [ref=e277]:
+                - link "+30 210 3729100" [ref=e278] [cursor=pointer]:
+                  - /url: tel:+30 210 3729100
+            - generic [ref=e279]:
+              - heading "Email us" [level=6] [ref=e280]
+              - paragraph [ref=e281]:
+                - link "Customer Service Email" [ref=e282] [cursor=pointer]:
+                  - /url: mailto:customerservice@peoplecert.org?subject=Contact from Website
+            - generic [ref=e283]:
+              - heading "FOLLOW US ON" [level=6] [ref=e284]
+              - list [ref=e285]:
+                - listitem [ref=e286]:
+                  - link [ref=e287] [cursor=pointer]:
+                    - /url: https://www.facebook.com/LanguageCert.org
+                - listitem [ref=e288]:
+                  - link [ref=e289] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/languagecert/posts/
+                - listitem [ref=e290]:
+                  - link [ref=e291] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@languagecert
+                - listitem [ref=e292]:
+                  - link [ref=e293] [cursor=pointer]:
+                    - /url: https://www.instagram.com/languagecert/
+                - listitem [ref=e294]:
+                  - link [ref=e295] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@languagecert
+          - generic [ref=e297]:
+            - heading "Support" [level=6] [ref=e298]
+            - paragraph [ref=e300]:
+              - strong [ref=e301]: 24/7/365
+              - text: A support team is ready to answer any questions and provide solutions.
+              - link "Help & Support" [ref=e302] [cursor=pointer]:
+                - /url: /en/help-and-support
+              - link "Vulnerability Disclosure Program" [ref=e303] [cursor=pointer]:
+                - /url: https://app.intigriti.com/programs/peoplecert/peoplecert/detail
+      - list [ref=e306]:
+        - listitem [ref=e307]:
+          - link "Corporate Governance" [ref=e308] [cursor=pointer]:
+            - /url: /en/about-us/legal/corporate-governance
+        - listitem [ref=e309]:
+          - link "Acknowledgements" [ref=e310] [cursor=pointer]:
+            - /url: /en/about-us/legal/acknowledgements
+        - listitem [ref=e311]:
+          - link "Policies & Terms of Service" [ref=e312] [cursor=pointer]:
+            - /url: /en/about-us/legal/policies-and-procedures
+        - listitem [ref=e313]:
+          - link "Modern Slavery Statement" [ref=e314] [cursor=pointer]:
+            - /url: /en/about-us/legal/modern-slavery-statement
+        - listitem [ref=e315]:
+          - link "Certification Verification" [ref=e316] [cursor=pointer]:
+            - /url: /en/results/certificate-verification
+        - listitem [ref=e317]:
+          - link "Results Verification" [ref=e318] [cursor=pointer]:
+            - /url: /en/results
+  - iframe [ref=e319]:
+    
+  - iframe [ref=e320]:
+    - generic [ref=f5e1]:
+      - alert [ref=f5e2]: Live chat is available
+      - button "Let's Chat! We're online." [ref=f5e6] [cursor=pointer]:
+        - generic [ref=f5e8]:
+          - generic [ref=f5e9]: Let's Chat!
+          - generic [ref=f5e10]: We're online.

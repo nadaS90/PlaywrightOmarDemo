@@ -1,0 +1,3 @@
+{
+  "production": { "baseUrl": "https://www.languagecert.org", "localePath": "/en", "cmsPathSegment": "cm" }
+}

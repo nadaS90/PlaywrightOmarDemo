@@ -1,0 +1,11 @@
+[    3648ms] [LOG] {userId: 0, userStatus: loggedOff} @ https://www.languagecert.org/en:5661
+[    3684ms] [LOG] Script successfully loaded in head. @ https://www.languagecert.org/en:88
+[    4375ms] [LOG] 0 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[    4397ms] [LOG] 1 @ https://www.languagecert.org/scripts/langcert/all_LANGCERT.js?260716:4705
+[    5092ms] [ERROR] ❌ CAPTCHA load failed: TypeError: Cannot set properties of null (setting 'src')
+    at https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:13:210775 @ https://www.languagecert.org/ui/scripts/languagecert.9fb767dd831195230cfa.js:12
+[   12000ms] [WARNING] botframework-webchat: "styleOptions.bubbleImageHeight" has been deprecated. Use "styleOptions.bubbleImageMaxHeight" and "styleOptions.bubbleImageMinHeight" instead. This deprecation migration will be removed on or after 2026-07-05.. @ https://oc-cdn-public-eur.azureedge.net/livechatwidget/v2scripts/webchat.js:1
+[   12001ms] [WARNING] botframework-webchat: "styleOptions.bubbleMaxWidth" has been deprecated. Use "styleOptions.bubbleAttachmentMaxWidth" and "styleOptions.bubbleMessageMaxWidth" instead. This deprecation migration will be removed on or after 2026-07-05.. @ https://oc-cdn-public-eur.azureedge.net/livechatwidget/v2scripts/webchat.js:1
+[   12002ms] [WARNING] botframework-webchat: "styleOptions.bubbleMinWidth" has been deprecated. Use "styleOptions.bubbleAttachmentMinWidth" and "styleOptions.bubbleMessageMinWidth" instead. This deprecation migration will be removed on or after 2026-07-05.. @ https://oc-cdn-public-eur.azureedge.net/livechatwidget/v2scripts/webchat.js:1
+[   12747ms] [WARNING] Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+GlobalNavButton, ChevronDown, ChevronUp, Edit, Add, Cancel, More, Settings, Mail, Filter (+ 1791 more) @ https://oc-cdn-public-eur.azureedge.net/livechatwidget/v2scripts/ocw.js:93
