@@ -11,7 +11,7 @@ type TitledBlank = BlankResult & { title: 'blank' };
 type ScrapeError = { examName: string; url: string; error: string };
 const stable = <T extends { url: string }>(values: T[]) => [...values].sort((a, b) => a.url.localeCompare(b.url) || JSON.stringify(a).localeCompare(JSON.stringify(b)));
 const writeJson = (file: string, value: unknown) => writeFile(file, JSON.stringify(value, null, 2) + '\n', 'utf8');
-
+// to-do: upgrade this to a better version
 test.describe('LanguageCert exam catalogue scraper', () => {
   test('should categorize every LanguageCert exam module by price availability', async ({ page, context }) => {
     const projectRoot = path.resolve(__dirname, '..');

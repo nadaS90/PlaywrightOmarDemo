@@ -22,5 +22,9 @@
     "allure-playwright": "^3.10.2",
     "mkdirp": "^3.0.1",
     "rimraf": "^6.1.3"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.1",
+    "xlsx": "^0.18.5"
   }
 }
