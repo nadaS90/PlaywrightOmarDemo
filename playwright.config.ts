@@ -24,7 +24,7 @@ export default defineConfig({
       "html",
       {
         outputFolder: path.resolve(projectRoot, "playwright-report"),
-        open: "never",
+        open:'always',
       },
     ],
     [
@@ -46,6 +46,8 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on",
+    screenshot:'only-on-failure',
+    video:'retain-on-failure-and-retries'
   },
 
   /* Configure projects for major browsers */
